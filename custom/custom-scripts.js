@@ -101,44 +101,6 @@ if(document.querySelectorAll('.splide').length > 0 ){
   });
 
 
-//Slider Scroll in Orizzontale
-
-  gsap.registerPlugin(ScrollTrigger);
-  let mm = gsap.matchMedia();
-
-// add a media query. When it matches, the associated function will run
-mm.add("(min-width: 800px)", () => {
-  const sections = gsap.utils.toArray(".tl-section");
-  const totalWidth = sections.length * window.innerWidth;
-
-  gsap
-    .timeline({
-      scrollTrigger: {
-        trigger: ".tl-bg",
-        pin: true,
-        scrub: 2.5,
-        start: "top top",
-        end: () => `+=${totalWidth * 0.6}`
-      }
-    })
-    .to(sections, {
-      xPercent: -100 * (sections.length - 0.85),
-      ease: "none",
-      duration: sections.length + 0.3
-    })
-    .to(
-      ".tl-van",
-      {
-        x: -(100 + window.innerWidth / 3.7),
-        ease: "none",
-        duration: 0.8
-      },
-      sections.length - 0.5
-    );
-});
-
-
-
 
 
 

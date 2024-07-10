@@ -10,6 +10,11 @@
 
 
   <link rel="icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Link a Splide CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Splide/3.6.4/splide.min.css">
+
 
   <?php wp_head(); // insert all the script and styles of WordPress 
   ?>
@@ -24,9 +29,11 @@
 
   <header class="header-container">
     <div class="header">
-      <a href="<?php echo esc_url(home_url()); // insert home url ?>" class="header__logo">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/logo.png" alt="<?php bloginfo('title'); // insert title of the site ?>">
-        
+      <a href="<?php echo esc_url(home_url()); // insert home url 
+                ?>" class="header__logo">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/logo.png" alt="<?php bloginfo('title'); // insert title of the site 
+                                                                                          ?>">
+
       </a>
       <nav class="menu">
         <?php // insert custom menu header

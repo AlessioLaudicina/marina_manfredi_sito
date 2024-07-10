@@ -78,7 +78,7 @@ Template Name: Home Template
     </div>
 
     <div class="grid pb-4 pt-4" style="display: flex; justify-content: center; align-items: center;" id="cosa-faccio">
-      <div class="col-50 mt-4 slide-left">
+      <div class="col-50 mt-4 fade-up">
         <div class="p-3">
           <h3 class="text-1 text-green">Il mio Metodo</h3>
           <p class="text-3">
@@ -113,7 +113,7 @@ Template Name: Home Template
           </p>
         </div>
       </div>
-      <div class="col-50 slide-right">
+      <div class="col-50 fade-up">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/BusinessCoaching.png" class="img-res" alt="About_img">
       </div>
     </div>
@@ -123,7 +123,7 @@ Template Name: Home Template
     <?php the_content(); ?>
     <div class="grid text-center pt-4 pb-4" id="contatti">
       <div class="col-100 fade-up">
-        <h3 class="text-1 text-green">Pronto a trasformare il tuo Business?</h3>
+        <h3 class="text-1 text-green">Pront* a trasformare il tuo Business?</h3>
         <p class="text-3">Non aspettare! Inizia il tuo percorso di business coaching con una consulenza gratuita di 30 minuti e scopri come i tuoi valori possono guidare il tuo successo.</p>
         <a href="" class="button"> Contattami ora</a>
       </div>

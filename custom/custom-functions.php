@@ -50,7 +50,7 @@ function custom_shortcode()
       $image_attributes =  wp_get_attachment_image_src(get_post_thumbnail_id(), 'large');
 
       $buffer .= '<li class="splide__slide">';
-      $buffer .= '<a href="' . get_the_permalink() . '" class="tiles fade-up" style="background: url(' . $image_attributes[0] . ') no-repeat center center; background-size:cover">';
+      $buffer .= '<a href="' . get_the_permalink() . '" class="tiles" style="background: url(' . $image_attributes[0] . ') no-repeat center center; background-size:cover">';
       $buffer .= '<div class="tiles__content">';
       $buffer .= '<h3 class="mb-0">' . get_the_title() . '</h3>';
       $buffer .= '<p class="text-white"></p>';
