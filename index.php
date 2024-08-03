@@ -4,6 +4,7 @@
 <div class="spacer" style="background-color: #4C5A89;"></div>
 <main class="grid">
   <div class="col-100">
+    <h2 class="text-green text-center pt-2">Le Tips del Mercoledì</h2>
 
 
 

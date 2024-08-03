@@ -31,8 +31,8 @@
     <div class="header">
       <a href="<?php echo esc_url(home_url()); // insert home url 
                 ?>" class="header__logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/logo.png" alt="<?php bloginfo('title'); // insert title of the site 
-                                                                                          ?>">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/LogoMM.png" alt="<?php bloginfo('title'); // insert title of the site 
+                                                                                            ?>">
 
       </a>
       <nav class="menu">
@@ -56,3 +56,5 @@
 
 
   </header>
+
+  <div class="overflow">

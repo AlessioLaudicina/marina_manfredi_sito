@@ -1,3 +1,4 @@
+</div>
 <footer class="footer mt-2 text-white">
   <div class="grid pt-3">
     <div class="col-25">
@@ -16,7 +17,7 @@
           <a href="#" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
         </li>
         <li class="pt-1">
-          <a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#" class="text-white"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
         </li>
         <li class="pt-1">
           <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
@@ -53,8 +54,9 @@
   document.addEventListener('DOMContentLoaded', function() {
     new Splide('.splide', {
       type: 'loop',
+      perPage: 3,
       autoplay: true,
-      interval: 2000, // 3 seconds
+      interval: 3000, // 3 seconds
     }).mount();
   });
 </script>
