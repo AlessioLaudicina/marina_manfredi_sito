@@ -127,4 +127,13 @@ gsap.to('.next-block',{
   }
 })
 
+// Animazione Logo About Page
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+    document.querySelector('.available').classList.add('active');
+  }, 1000); // Ritardo di 1 secondo
+});
+
 // Services Page
