@@ -95,7 +95,7 @@ Template Name: Home Template
         </div>
       </div>
       <div class="col-50 relative">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/15.jpg" class="img-res img-rounded" style="border: 10px solid #cfb6fa;" alt="About-me">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/15.jpg" class="img-res img-rounded"  alt="About-me">
       </div>
 
     </div>
@@ -134,8 +134,8 @@ Template Name: Home Template
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services.svg" alt="">
 
               <h4 class="text-3 mt-3" style="color: #cfb6fa;">Step 1: Prima Consulenza</h4>
-              <strong class="text-3 text-green" style="color: #cfb6fa;">Inizia Il Tuo Viaggio Verso il Successo</strong>
-              <p class="text-4">
+              <strong class="text-3 text-green mt-1" style="color: #cfb6fa;">Inizia Il Tuo Viaggio Verso il Successo</strong>
+              <p class="text-4 mt-1">
                 La prima fase del mio metodo di coaching è cruciale per comprendere le tue esigenze e obiettivi unici.
                 Durante la prima consulenza, mi concentro su osservazione ed ascolto attivo. Dedichiamo insieme del tempo a raccogliere le tue convinzioni e i dati essenziali per iniziare l'analisi di coaching. Il mio approccio empatico e professionale mi permette di comprendere a fondo il contesto del tuo business, identificando punti di forza e aree di miglioramento.
               </p>
@@ -169,8 +169,8 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services-7.svg" alt="">
 
               <h4 class="text-3 text-green mt-3">Step 2: Analisi e Pianificazione del Servizio</h4>
-              <strong class="text-3 text-green">Pianifica il Tuo Successo</strong>
-              <p class="text-4">
+              <strong class="text-3 text-green mt-1">Pianifica il Tuo Successo</strong>
+              <p class="text-4 mt-1">
                 La seconda fase del mio metodo è l'analisi e la pianificazione dettagliata del tuo percorso di sviluppo.
                 In questa fase, costruisco – insieme a te - un Action Plan personalizzato. Smantelliamo le convinzioni limitanti e definiamo chiaramente i tuoi obiettivi attraverso esercizi mirati. Il mio processo assicura che ogni passo sia in linea con le tue aspirazioni e con il mercato di riferimento, creando una solida base per il successo.
               </p>
@@ -209,8 +209,8 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services-4.svg" alt="">
 
               <h4 class="text-3 text-green mt-3">Step 3: Monitoraggio & Revisione</h4>
-              <strong class="text-3 text-green">Mantieni Il tuo Successo</strong>
-              <p class="text-4">
+              <strong class="text-3 text-green mt-1">Mantieni Il tuo Successo</strong>
+              <p class="text-4 mt-1">
                 Il successo duraturo richiede un monitoraggio costante e la capacità di adattarsi ai cambiamenti.
                 Durante questa fase, stabiliamo insieme KPIs chiari e misurabili. Monitoriamo i tuoi progressi e rivediamo le strategie per garantire che tu rimanga sulla strada giusta verso il raggiungimento dei tuoi obiettivi. Il mio supporto continuo ti aiuta a mantenere la rotta e a raggiungere risultati tangibili ed oggettivi.
               </p>
@@ -245,8 +245,8 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services-6.svg" alt="">
 
               <h4 class="text-3 mt-3" style="color: #cfb6fa;">Raggiungere l' obiettivo</h4>
-              <strong class="text-3" style="color: #cfb6fa;">Pianifica il Tuo Successo</strong>
-              <p class="text-4">
+              <strong class="text-3 mt-1" style="color: #cfb6fa;">Pianifica il Tuo Successo</strong>
+              <p class="text-4 mt-1">
                 Sei pronto a portare la tua attività al livello successivo? Non lasciare che le sfide ti blocchino: con il giusto supporto, il successo è a portata di mano!
               </p>
               <a class="button--round-outline" href="https://www.instagram.com/reel/C8wZCSuoz2L/?igsh=MW1yd2EzYmMyYnpuZA==" target="_blank">Come ti vedi tra 10 anni?</a>

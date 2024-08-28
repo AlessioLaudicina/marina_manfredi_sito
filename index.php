@@ -1,10 +1,13 @@
 <?php get_header(); ?>
 
 <div class="spacer" style="background-color: #4C5A89;"></div>
+<h2 class="text-green text-center pt-2">Le Tips del Mercoledì</h2>
+<p class="text-green" style="font-style: italic; text-align:center;">"Ogni obiettivo straordinario è il risultato di piccole azioni quotidiane."</p>
+
+
 <main class="grid">
-  <div class="col-70"> <!-- Modifica la larghezza del contenuto principale -->
-    <h2 class="text-green text-center pt-2">Le Tips del Mercoledì</h2>
-    <p class="text-green" style="font-style: italic; text-align:center;">"Ogni obiettivo straordinario è il risultato di piccole azioni quotidiane."</p>
+
+  <div class="col-70 blog-70"> <!-- Modifica la larghezza del contenuto principale -->
 
     <?php if (is_search()) { ?>
       <h1><?php esc_html_e('Risultati di: ', 'nextframe'); ?><?php echo $s; ?></h1>
@@ -41,7 +44,7 @@
   <?php endif; ?>
   </div>
 
-  <aside class="col-30 sidebar "> <!-- Sidebar Section -->
+  <aside class="col-30 blog-30 sidebar "> <!-- Sidebar Section -->
     <?php if (is_active_sidebar('blog-sidebar')) : ?>
       <?php dynamic_sidebar('blog-sidebar'); ?>
     <?php else : ?>

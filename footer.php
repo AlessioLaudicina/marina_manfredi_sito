@@ -27,16 +27,18 @@
     <div class="col-25">
       <h3>Contatti</h3>
       <address class="text-white">
-        <a href="mailto:info@marinamanfredi.com" class="text-white">info@marinamanfredi.com</a>
-        <a href="mailto:marina_manfredi@pec.it" class="text-white">marina_manfredi@pec.it</a>
-        p.iva 13066720015<br>
-        Torino, 10144<br>
+        <div class="pt-1"><a href="mailto:info@marinamanfredi.com" class="text-white pt-1">info@marinamanfredi.com</a></div>
+        <div class="pt-1"><a href="mailto:marina_manfredi@pec.it" class="text-white pt-1">marina_manfredi@pec.it</a></div>
+        <div class="pt-1">p.iva 13066720015</div>
+        <div class="pt-1">Torino, CAP 10144</div>
       </address>
     </div>
     <div class="col-25">
       <h3>Cookie & Privacy Policy</h3>
-      <a href="/privacy-policy" class="text-white"> Privacy Policy</a> -
-      <a href="/cookie-policy" class="text-white"> Cookie Policy</a>
+      <div class="pt-1">
+        <a href="/privacy-policy" class="text-white"> Privacy Policy</a> -
+        <a href="/cookie-policy" class="text-white"> Cookie Policy</a>
+      </div>
     </div>
   </div>
 
