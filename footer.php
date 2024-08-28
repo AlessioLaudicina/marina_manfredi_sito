@@ -7,29 +7,30 @@
         <li class="pt-1"><a href="#" class="text-white">Home</a></li>
         <li class="pt-1"><a href="#" class="text-white">Blog</a></li>
         <li class="pt-1"><a href="#" class="text-white">Servizi</a></li>
-        <li class="pt-1"><a href="#" class="text-white">Contattami</a></li>
+        <li class="pt-1"><a href="#" class="text-white">Contatti</a></li>
       </ul>
     </div>
     <div class="col-25">
       <h3>Social</h3>
       <ul class="list-unstyled">
         <li class="pt-1">
-          <a href="#" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.facebook.com/profile.php?id=61559631022200" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
         </li>
         <li class="pt-1">
-          <a href="#" class="text-white"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+          <a href="https://www.linkedin.com/in/marina-manfredi-3a255180/" class="text-white"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
         </li>
         <li class="pt-1">
-          <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.instagram.com/marina_manfredi_/" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
         </li>
       </ul>
     </div>
     <div class="col-25">
       <h3>Contatti</h3>
       <address class="text-white">
-        Via Cavour 1, Torino<br>
-        P.Iva 0000000000<br>
-        <a href="mailto:marina.manfredi@gmail.com" class="text-white">marina.manfredi@gmail.com</a>
+        <a href="mailto:info@marinamanfredi.com" class="text-white">info@marinamanfredi.com</a>
+        <a href="mailto:marina_manfredi@pec.it" class="text-white">marina_manfredi@pec.it</a>
+        p.iva 13066720015<br>
+        Torino, 10144<br>
       </address>
     </div>
     <div class="col-25">
@@ -42,7 +43,7 @@
   <div class="footer-bottom">
     <div class="col-100 text-center">
       © Copyright <?php echo date("Y"); ?>
-      <?php bloginfo('title'); ?> - Via Cavour 1 Torino, P.Iva 0000000000
+      <?php bloginfo('title'); ?> - Via Cavour 1 Torino, p.iva 13066720015
     </div>
   </div>
 </footer>

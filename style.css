@@ -21,7 +21,7 @@ body, html{ font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, "Se
 h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0;padding: 0;}
 ol,ul{list-style-type: none;}
 img{height: auto;}
-a{text-decoration: none; color: #008D6B;}
+a{text-decoration: none; color: #4C5A89;}
 hr{border:none; border-bottom: 1px solid #ddd}
 
 /* ! Title System */
@@ -29,7 +29,7 @@ hr{border:none; border-bottom: 1px solid #ddd}
 h1, .text-1{font-size: 3.4rem;}
 h2, .text-2{font-size: 2.2rem;}
 h3, .text-3{font-size: 1.5rem;}
-h4, p, .text-4{font-size: 1rem;}
+h4, p, .text-4{font-size: 1.1rem;}
 
 h1, h2, h3, h4, p, ol, ul{margin-bottom: 1rem;}
 p{line-height: 1.3;}
@@ -45,8 +45,8 @@ p{line-height: 1.3;}
 .button--small{  padding: 10px 20px;font-size: 1rem;}
 .button--round{background: #fff; color:#000; padding: 15px 30px; border-radius: 100px; font-weight: bold;}
 .button--round:hover{background: #000; color:#fff;}
-.button--round-outline{background: transparent; color:#fff; padding: 15px 30px; border-radius: 100px; font-weight: bold;border: 1px solid #fff}
-.button--round-outline:hover{background: #fff; color:#000;}
+.button--round-outline{background: transparent; color:#008D6B; padding: 15px 30px; border-radius: 100px; font-weight: bold;border: 1px solid #cfb6fa}
+.button--round-outline:hover{background: #cfb6fa; color:#008D6B;}
 
 
 
@@ -210,14 +210,93 @@ p{line-height: 1.3;}
 
 /* ! Wordpress Styles */
 /*----------------------------------------------------------------------------------- */
+.widget ul li {
+  margin-bottom: 15px; /* Aumenta la spaziatura tra gli articoli */
+}
 
-input, textarea{border: 3px solid #ddd; border-radius: 3px;padding: 10px;}
-input[type=submit], button{border: 3px solid #ddd; background: #ddd; border-radius: 3px;padding: 10px;}
+.wpcf7-form-control {
+  width: 100%; /* Imposta la larghezza al 100% per allinearsi al contenitore */
+  padding: 12px 15px; /* Spaziatura interna per un aspetto più spazioso */
+  margin: 10px 0; /* Spaziatura esterna per separare gli elementi */
+  font-size: 16px; /* Dimensione del testo comoda per la lettura */
+  color: #333333; /* Colore del testo */
+  background-color: #f9f9f9; /* Colore di sfondo leggero per un contrasto delicato */
+  border: 1px solid #cccccc; /* Bordo sottile e neutro */
+  border-radius: 5px; /* Angoli arrotondati per un aspetto moderno */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Leggera ombra interna per un effetto di profondità */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transizioni fluide per l'interazione */
+}
+
+.wpcf7-form-control:focus {
+  border-color: #4C5A89; /* Colore del bordo al focus per indicare interazione */
+  box-shadow: 0 0 5px rgba(76, 90, 137, 0.5); /* Aggiunge un'ombra luminosa al focus */
+  outline: none; /* Rimuove il contorno standard del browser */
+  background-color: #ffffff; /* Cambia il colore di sfondo per un feedback visivo */
+}
+
+.wpcf7-form-control::placeholder {
+  color: #aaaaaa; /* Colore del placeholder per differenziarlo dal testo reale */
+  font-style: italic; /* Placeholder in corsivo per un aspetto raffinato */
+}
+
+.wpcf7-form-control:hover {
+  border-color: #4C5A89; /* Cambia il colore del bordo al passaggio del mouse */
+}
+
+
+.wpcf7-form-control:disabled {
+  background-color: #e0e0e0; /* Colore di sfondo per gli input disabilitati */
+  color: #777777; /* Colore del testo per gli input disabilitati */
+  cursor: not-allowed; /* Cambia il cursore per indicare che l'elemento è disabilitato */
+}
 
 .form-search{width: 100%; border: 3px solid #ddd; border-radius: 100px; padding-left: 15px;}
-.form-search input{width: calc(100% - 40px); border: none;}
+.form-search input{width: calc(100% - 40px); border: none; height: 100%;}
 .form-search button{ background-color: transparent; border: none; padding: 0;}
 .form-search img{width: 25px; margin-top: 8px;}
 
 .alignfull{width: 100vw;margin-left: calc(50% - 50vw);}
 .alignwide{width: 90vw;margin-left: calc(50% - 45vw);}
+
+
+.contact-card {
+  border-radius: 8px; /* Angoli arrotondati */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra per un effetto di profondità */
+  padding: 20px; /* Spaziatura interna */
+  margin: 3rem 0; /* Spaziatura esterna */
+  max-width: 400px; /* Larghezza massima */
+  text-align: center; /* Testo centrato */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Effetti di transizione per interazione */
+}
+
+.contact-card:hover {
+  transform: translateY(-5px); /* Leggero spostamento verso l'alto al passaggio del mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumento dell'ombra al passaggio del mouse */
+}
+
+.contact-card .icon {
+  font-size: 30px; /* Dimensione dell'icona */
+  color: #4C5A89; /* Colore dell'icona */
+  margin-bottom: 10px; /* Spaziatura sotto l'icona */
+}
+
+.contact-card h3 {
+  font-size: 20px; /* Dimensione del titolo */
+  color: #cfb6fa; /* Colore del titolo */
+  margin-bottom: 10px; /* Spaziatura sotto il titolo */
+}
+
+
+.contact-card-container {
+  display: flex;
+  flex-wrap: wrap; /* Flessibile per il wrapping delle carte su dispositivi mobili */
+  justify-content: space-around; /* Distribuisce uniformemente le carte */
+  gap: 20px; /* Spaziatura tra le carte */
+  padding: 20px; /* Spaziatura interna per il contenitore */
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+      max-width: 100%; /* Larghezza completa su dispositivi mobili */
+  }
+}
