@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="spacer" style="background-color: #4C5A89;"></div>
-<h2 class="text-green text-center pt-2">Le Tips del Mercoledì</h2>
+<h2 class="text-green text-center pt-4">Le Tips del Mercoledì</h2>
 <p class="text-green" style="font-style: italic; text-align:center;">"Ogni obiettivo straordinario è il risultato di piccole azioni quotidiane."</p>
 
 

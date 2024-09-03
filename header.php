@@ -35,6 +35,7 @@
                                                                                             ?>">
 
       </a>
+      
       <nav class="menu">
         <?php // insert custom menu header
         wp_nav_menu(array(
@@ -43,14 +44,18 @@
           'items_wrap' => '<ul class="header__menu">%3$s</ul>'
         ));
         ?>
-
+<input type="checkbox" id="checkbox2" class="checkbox2 visuallyHidden">
+      <label for="checkbox2">
+        <div class="hamburger hamburger2">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+          <span class="bar bar4"></span>
+        </div>
+      </label>
       </nav>
-
-      <div class="header__hamburger">
-        <span></span>
-        <span></span>
-      </div>
-
+      
+      
 
     </div>
 

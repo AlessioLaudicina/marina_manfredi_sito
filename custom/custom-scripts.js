@@ -1,8 +1,8 @@
   // menu toggle
-  let hamburger = document.querySelector('.header__hamburger');
-  hamburger.addEventListener("click", function() {
-    document.body.classList.toggle('menu-open');
+  document.querySelector('.checkbox2').addEventListener('change', function() {
+    document.body.classList.toggle('menu-open'); // Aggiunge/rimuove la classe 'menu-open' al body
   });
+  
 
 
     // Add class on Scroll 
@@ -140,30 +140,36 @@ revealContainers.forEach((container) => {
 
 
 // About Horizontal Scroll
+// Importa i plugin necessari di GSAP
 gsap.registerPlugin(ScrollTrigger);
-let sections = gsap.utils.toArray(".slide");
-    
-gsap.to(sections, {
-  xPercent: -100 * (sections.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".horizontal-sliders",
-    pin: ".main-about",
-    pinSpacing: true,
-    scrub: 1,
-    end: "+=3000",
-  }
-});
 
-gsap.to('.next-block',{
+// Controlla se la finestra è abbastanza larga per essere considerata "desktop"
+if (window.innerWidth > 992) {
+  
+  let sections = gsap.utils.toArray(".slide");
 
-  scrollTrigger:{
-    trigger:'.next-block',
-    pinnedContainer: ".main-about",
-    start:'top 50%',
-    toggleActions: 'play none reset none',
-  }
-})
+  gsap.to(sections, {
+    xPercent: -100 * (sections.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".horizontal-sliders",
+      pin: ".main-about",
+      pinSpacing: true,
+      scrub: 1,
+      end: "+=3000",
+    }
+  });
+
+  gsap.to('.next-block', {
+    scrollTrigger: {
+      trigger: '.next-block',
+      pinnedContainer: ".main-about",
+      start: 'top 50%',
+      toggleActions: 'play none reset none',
+    }
+  });
+}
+
 
 // Animazione Logo About Page
 
@@ -178,74 +184,79 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //Technical Skills
-var technicalquotes = [];
+var technicalquotes = [
+  "Ingegnere dei Materiali",
+  "10 anni in Aziende multinazionali",
+  "10 anni nel settore Automotive",
+  "Responsabile esecuzione Progetti (riduzione costi: 2-3Mio€/anno)",
+  "Responsabile della Strategia Acquisti e Fornitori in Europa"
+];
 var technicalcounter = 0;
 var technicalblockquote = document.getElementById("technical-skill");
 
-technicalquotes[0] = "Ingegnere dei Materiali";
-technicalquotes[1] = "10 anni in Aziende multinazionali con panorama globale";
-technicalquotes[2] = "10 anni nel settore Automotive";
-technicalquotes[3] = "Responsabile esecuzione Progetti (obiettivi di riduzione costi: 2-3Mio€/anno)";
-technicalquotes[4] = "Responsabile della Strategia Acquisti e Fornitori per linee di prodotto in Europa";
+if (technicalblockquote) {
+  // Set initial quote
+  technicalblockquote.innerText = technicalquotes[0];
 
-//set init quote
-technicalblockquote.innerText = technicalquotes[0];
+  // Quote carousel
+  function technicalquote() {
+      var technicalquote_player = setInterval(function() {
+          technicalblockquote.style.opacity = 0; // Fade out
 
-//quote carousel
-function technicalquote() {
-  var technicalquote_player = setInterval(function() {
-    technicalblockquote.style.opacity = 0; // Fade out (you could animate this for a smoother effect)
-    
-    setTimeout(function() {
-      technicalblockquote.innerText = technicalquotes[technicalcounter]; // Change the text
-      technicalcounter++;
-      
-      if (technicalcounter === technicalquotes.length) {
-        technicalcounter = 0;
-      }
-      
-      technicalblockquote.style.opacity = 1; // Fade in (you could animate this for a smoother effect)
-    }, 500); // Timeout for fade out
-  }, 2000); 
+          setTimeout(function() {
+              technicalblockquote.innerText = technicalquotes[technicalcounter]; // Change the text
+              technicalcounter++;
+
+              if (technicalcounter === technicalquotes.length) {
+                  technicalcounter = 0;
+              }
+
+              technicalblockquote.style.opacity = 1; // Fade in
+          }, 500); // Timeout for fade out
+      }, 2000);
+  }
+
+  // Execute carousel
+  technicalquote();
 }
 
-//execute
-technicalquote();
-
 //Soft Skills
-var quotes = [];
+var quotes = [
+  "Reliability",
+  "Open to challenges",
+  "Curious & Learner",
+  "Leading teams at global level",
+  "Passionate"
+];
 var counter = 0;
 var blockquote = document.getElementById("skill");
 
-quotes[0] = "Reliability";
-quotes[1] = "Open to challenges";
-quotes[2] = "Curious & Learner";
-quotes[3] = "Leading multidisciplinary and multi-sites teams at global level";
-quotes[4] = "Passionate";
+if (blockquote) {
+  // Set initial quote
+  blockquote.innerText = quotes[0];
 
-//set init quote
-blockquote.innerText = quotes[0];
+  // Quote carousel
+  function quote() {
+      var quote_player = setInterval(function() {
+          blockquote.style.opacity = 0; // Fade out
 
-//quote carousel
-function quote() {
-  var quote_player = setInterval(function() {
-    blockquote.style.opacity = 0; // Fade out (you could animate this for a smoother effect)
-    
-    setTimeout(function() {
-      blockquote.innerText = quotes[counter]; // Change the text
-      counter++;
-      
-      if (counter === quotes.length) {
-        counter = 0;
-      }
-      
-      blockquote.style.opacity = 1; // Fade in (you could animate this for a smoother effect)
-    }, 500); // Timeout for fade out
-  }, 2000); 
+          setTimeout(function() {
+              blockquote.innerText = quotes[counter]; // Change the text
+              counter++;
+
+              if (counter === quotes.length) {
+                  counter = 0;
+              }
+
+              blockquote.style.opacity = 1; // Fade in
+          }, 500); // Timeout for fade out
+      }, 2000);
+  }
+
+  // Execute carousel
+  quote();
 }
 
-//execute
-quote();
 
 
 // Services Page

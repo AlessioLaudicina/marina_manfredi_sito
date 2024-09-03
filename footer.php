@@ -14,13 +14,13 @@
       <h3>Social</h3>
       <ul class="list-unstyled">
         <li class="pt-1">
-          <a href="https://www.facebook.com/profile.php?id=61559631022200" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.facebook.com/profile.php?id=61559631022200" class="text-white"><i class="fab fa-facebook-f"></i>Facebook</a>
         </li>
         <li class="pt-1">
-          <a href="https://www.linkedin.com/in/marina-manfredi-3a255180/" class="text-white"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+          <a href="https://www.linkedin.com/in/marina-manfredi-3a255180/" class="text-white"><i class="fa-brands fa-linkedin"></i>  Linkedin</a>
         </li>
         <li class="pt-1">
-          <a href="https://www.instagram.com/marina_manfredi_/" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.instagram.com/marina_manfredi_/" class="text-white"><i class="fab fa-instagram"></i>Instagram</a>
         </li>
       </ul>
     </div>
@@ -30,7 +30,7 @@
         <div class="pt-1"><a href="mailto:info@marinamanfredi.com" class="text-white pt-1">info@marinamanfredi.com</a></div>
         <div class="pt-1"><a href="mailto:marina_manfredi@pec.it" class="text-white pt-1">marina_manfredi@pec.it</a></div>
         <div class="pt-1">p.iva 13066720015</div>
-        <div class="pt-1">Torino, CAP 10144</div>
+        <div class="pt-1">Torino, 10144</div>
       </address>
     </div>
     <div class="col-25">

@@ -48,7 +48,7 @@ Template Name: Services Template
         </div>
         <div class="service-title text-green">Coaching manageriale e leadership</div>
         <p class="service-desc">
-          ti aiuto a migliorare le competenze di decision making, problem solving, pianificazione strategica e gestione del tempo, essenziali per una leadership efficace.
+          Ti aiuto a migliorare le competenze di decision making, problem solving, pianificazione strategica e gestione del tempo, essenziali per una leadership efficace.
         </p>
       </div>
 

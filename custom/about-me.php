@@ -14,7 +14,7 @@ $image_attributes =  wp_get_attachment_image_src(get_post_thumbnail_id($post->ID
   <div class="cover__bg" style="background: url(<?php echo $image_attributes[0]; ?>) center center; background-size: cover; opacity: 0.9;"></div>
   <div class="cover__content relative">
     <h1 class="text-reveal text-0 p-1">Marina Manfredi</h1>
-    <p class="text-reveal text-white text-1 p-1">"Prima di essere qualcosa, siamo la cosa che vogliamo essere."</p>
+    <p class="text-reveal text-white text-2 p-1">"Prima di essere qualcosa, siamo la cosa che vogliamo essere."</p>
   </div>
   <img class="available" style="margin-top: 100px; margin-right: 120px; margin-bottom: 100px; position: absolute; top:0; right:0;" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/LogoMM.png" alt="">
 
@@ -59,6 +59,50 @@ $image_attributes =  wp_get_attachment_image_src(get_post_thumbnail_id($post->ID
         <div class="text-2 text-green pt-1">Io sono il mio business</div>
         <p class="text-4 pt-1"> Sono una Business Coach – costituisco una guida strategica al cambiamento ed alla massimizzazione del potenziale aziendale-imprenditoriale, in grado di dare un supporto mirato, professionale e soprattutto personalizzato, che non si limita a risolvere il problema circostanziale del momento (come la comune accezione di Consulente), ma che fornisce gli strumenti per diventare risolutori indipendenti dei propri problemi di domani. E’ questa la mia forza!</p>
 
+      </div>
+    </div>
+
+    <!-- Blocco visibile solo su dispositivi mobili/tablet -->
+    <div class="mobile-cards">
+      <div class="mobile-card">
+        <i class="fa-solid fa-user-graduate"></i>
+        <div class="text-1">2014</div>
+        <div class="text-2 text-green pt-1">Laureata in Ingegneria dei Materiali alla Federico II di Napoli</div>
+        <p class="text-4 pt-1">
+          25 anni, faccio la valigia e parto alla volta di "Mamma Fiat": Torino, multinazionale del settore automotive...
+        </p>
+      </div>
+      <div class="mobile-card">
+        <i class="fa-solid fa-flag-usa"></i>
+        <div class="text-1">2018</div>
+        <div class="text-2 text-green pt-1">La mia prima sterzata</div>
+        <p class="text-4">
+          Lascio Fiat (FCA) per un’altra multinazionale (americana) dalla cultura aziendale ancor più all’avanguardia...
+        </p>
+      </div>
+      <div class="mobile-card">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/icons/decision.png" class="img-res" alt="">
+        <div class="text-1">2021</div>
+        <div class="text-2 text-green pt-1">Un anno controverso</div>
+        <p class="text-4">
+          A 30 anni avevo raggiunto già molti obiettivi personali e lavorativi nonostante la mia giovane età...
+        </p>
+      </div>
+      <div class="mobile-card">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/icons/change.png" class="img-res" alt="">
+        <div class="text-1">2024</div>
+        <div class="text-2 text-green pt-1">Momento decisivo di transizione</div>
+        <p class="text-4 pt-1">
+          Delusa e stanca di un sistema svalutante e demotivante, alla soglia dei 35 anni, butto giù il mio action plan...
+        </p>
+      </div>
+      <div class="mobile-card">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/icons/roadmap.png" class="img-res" alt="">
+        <div class="text-1">Oggi</div>
+        <div class="text-2 text-green pt-1">Io sono il mio business</div>
+        <p class="text-4 pt-1">
+          Sono una Business Coach – costituisco una guida strategica al cambiamento ed alla massimizzazione del potenziale...
+        </p>
       </div>
     </div>
 

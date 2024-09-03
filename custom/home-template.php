@@ -24,7 +24,7 @@ Template Name: Home Template
     <div class="p-fv__text-box">
       <h1 class="text-reveal text-2 text-white mt-1">Scopri il Potenziale del Tuo Business con Marina: La Tua Guida al Cambiamento</h1>
       <h3 class="text-reveal text-3 text-white mt-1">Hai almeno una criticità da voler risolvere nel tuo Business?</h3>
-      <p class="text-reveal text-white">Sei un imprenditore, un libero professionista o una start up che vuole migliorarsi e massimizzare il potenziale della propria attività? Io sono la guida giusta al cambiamento.</p>
+      <p class="text-reveal text-white">Sei un imprenditore, un libero professionista o una start up che vuole migliorarsi e massimizzare il potenziale della propria attività?</p>
       <a href="#chi-sono" class="button fade-in scroll-trigger"><?php esc_html_e('Scopri i vantaggi', 'nextframe'); ?></a>
     </div>
   </div>
@@ -95,13 +95,13 @@ Template Name: Home Template
         </div>
       </div>
       <div class="col-50 relative">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/15.jpg" class="img-res img-rounded"  alt="About-me">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/15.jpg" class="img-res img-rounded" style=" border: 10px solid #cfb6fa;" alt="About-me">
       </div>
 
     </div>
     <div class="grid mt-3" style="display: flex; justify-content: center;" id="cosa-faccio">
       <div class="col-50" style="display: flex; justify-content: center; position: relative; flex-wrap: wrap;">
-        <div class="card" style="background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; max-width: 400px; min-width: 400px; max-height: 250px; min-height: 250px; display: flex; flex-direction: column; justify-content: center;">
+        <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; max-width: 400px; min-width: 400px; max-height: 250px; min-height: 250px; display: flex; flex-direction: column; justify-content: center;">
           <h3 class="text-2 text-green" style="margin-bottom: 15px;">Technical Skills</h3>
           <blockquote style="font-style: italic; color: #333;">
             <p id="technical-skill" style="margin: 0; font-size: 18px; text-transform:uppercase;">10 anni negli Acquisti</p>
@@ -109,7 +109,7 @@ Template Name: Home Template
         </div>
       </div>
       <div class="col-50" style="display: flex; justify-content: center; position: relative; flex-wrap: wrap;">
-        <div class="card" style="background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; max-width: 400px; min-width: 400px; min-height: 250px; max-height: 250px; display: flex; flex-direction: column; justify-content: center;">
+        <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; max-width: 400px; min-width: 400px; min-height: 250px; max-height: 250px; display: flex; flex-direction: column; justify-content: center;">
           <h3 class="text-2 text-green" style="margin-bottom: 15px;">Soft Skills</h3>
           <blockquote style="font-style: italic; color: #333;">
             <p id="skill" style="margin: 0; font-size: 20px; text-transform:uppercase;">Open to challenges</p>
@@ -133,11 +133,10 @@ Template Name: Home Template
             <div class="text-content">
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services.svg" alt="">
 
-              <h4 class="text-3 mt-3" style="color: #cfb6fa;">Step 1: Prima Consulenza</h4>
+              <h4 class="text-3 mt-3" style="color: #cfb6fa;">Step 1: Prima Call Conoscitiva</h4>
               <strong class="text-3 text-green mt-1" style="color: #cfb6fa;">Inizia Il Tuo Viaggio Verso il Successo</strong>
               <p class="text-4 mt-1">
-                La prima fase del mio metodo di coaching è cruciale per comprendere le tue esigenze e obiettivi unici.
-                Durante la prima consulenza, mi concentro su osservazione ed ascolto attivo. Dedichiamo insieme del tempo a raccogliere le tue convinzioni e i dati essenziali per iniziare l'analisi di coaching. Il mio approccio empatico e professionale mi permette di comprendere a fondo il contesto del tuo business, identificando punti di forza e aree di miglioramento.
+              La prima fase del mio metodo di coaching è cruciale per comprendere le tue esigenze e obiettivi unici - osservazione ed ascolto attivo. Il mio approccio empatico e professionale mi permette di comprendere a fondo il contesto del tuo business, identificando punti di forza e aree di miglioramento.
               </p>
             </div>
           </div>
@@ -171,8 +170,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
               <h4 class="text-3 text-green mt-3">Step 2: Analisi e Pianificazione del Servizio</h4>
               <strong class="text-3 text-green mt-1">Pianifica il Tuo Successo</strong>
               <p class="text-4 mt-1">
-                La seconda fase del mio metodo è l'analisi e la pianificazione dettagliata del tuo percorso di sviluppo.
-                In questa fase, costruisco – insieme a te - un Action Plan personalizzato. Smantelliamo le convinzioni limitanti e definiamo chiaramente i tuoi obiettivi attraverso esercizi mirati. Il mio processo assicura che ogni passo sia in linea con le tue aspirazioni e con il mercato di riferimento, creando una solida base per il successo.
+              In questa fase, costruisco – insieme a te - un Action Plan personalizzato. Smantelliamo le convinzioni limitanti e definiamo chiaramente i tuoi obiettivi attraverso esercizi mirati. Il mio processo assicura che ogni passo del cambiamento sia in linea con le tue aspirazioni e con il mercato di riferimento, creando una solida base per il successo.
               </p>
 
             </div>
@@ -209,11 +207,9 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services-4.svg" alt="">
 
               <h4 class="text-3 text-green mt-3">Step 3: Monitoraggio & Revisione</h4>
-              <strong class="text-3 text-green mt-1">Mantieni Il tuo Successo</strong>
+              <strong class="text-3 text-green mt-1">Mantieni la rotta verso Il tuo Successo</strong>
               <p class="text-4 mt-1">
-                Il successo duraturo richiede un monitoraggio costante e la capacità di adattarsi ai cambiamenti.
-                Durante questa fase, stabiliamo insieme KPIs chiari e misurabili. Monitoriamo i tuoi progressi e rivediamo le strategie per garantire che tu rimanga sulla strada giusta verso il raggiungimento dei tuoi obiettivi. Il mio supporto continuo ti aiuta a mantenere la rotta e a raggiungere risultati tangibili ed oggettivi.
-              </p>
+              Durante questa fase, stabiliamo insieme KPIs chiari e misurabili. Monitoriamo i tuoi progressi e rivediamo le strategie per garantire che tu rimanga sulla strada giusta verso il raggiungimento dei tuoi obiettivi. Il mio supporto continuo ti aiuta a mantenere la rotta e a raggiungere risultati tangibili ed oggettivi.              </p>
 
             </div>
 
@@ -245,7 +241,6 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
               <img class="img-res" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/img/services-6.svg" alt="">
 
               <h4 class="text-3 mt-3" style="color: #cfb6fa;">Raggiungere l' obiettivo</h4>
-              <strong class="text-3 mt-1" style="color: #cfb6fa;">Pianifica il Tuo Successo</strong>
               <p class="text-4 mt-1">
                 Sei pronto a portare la tua attività al livello successivo? Non lasciare che le sfide ti blocchino: con il giusto supporto, il successo è a portata di mano!
               </p>
@@ -276,7 +271,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
     <div class="grid mt-3">
       <div class="col-50">
         <h2 class="text-green text-center text-2">Case Study</h2>
-        <article id="slider">
+        <article id="slider" >
           <input type="radio" name="slider" id="slide1" checked />
           <input type="radio" name="slider" id="slide2" />
           <input type="radio" name="slider" id="slide3" />
@@ -316,11 +311,11 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
                     </div>
                     <div class="case-title">Criticità</div>
                     <div class="section-content">
-                    Nonostante lei avesse già implementato alcune buone pratiche, continuava a riscontrare problemi nel rispettare le scadenze e a gestire efficacemente le sue attività quotidiane – si sentiva “stressata” dalle scadenze in arrivo ogni mese.
+                      Nonostante lei avesse già implementato alcune buone pratiche, continuava a riscontrare problemi nel rispettare le scadenze e a gestire efficacemente le sue attività quotidiane – si sentiva “stressata” dalle scadenze in arrivo ogni mese.
                     </div>
                     <div class="case-title">Proposta Risolutiva</div>
                     <div class="section-content">
-                    Durante la consulenza, ho analizzato le sue sfide specifiche e le ho fornito strategie personalizzate per migliorare la sua organizzazione. Attraverso consigli pratici e dettagliati, è riuscita a gestire meglio il suo tempo, a rispettare le scadenze senza ansia e a sentirsi più sicura e soddisfatta del proprio lavoro.                    </div>
+                      Durante la consulenza, ho analizzato le sue sfide specifiche e le ho fornito strategie personalizzate per migliorare la sua organizzazione. Attraverso consigli pratici e dettagliati, è riuscita a gestire meglio il suo tempo, a rispettare le scadenze senza ansia e a sentirsi più sicura e soddisfatta del proprio lavoro. </div>
                   </div>
                 </div>
               </div>
@@ -331,29 +326,29 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
                   <div class="section">
                     <div class="case-title">Chi/Cosa</div>
                     <div class="section-content">
-                    Talentuosa artigiana sartoriale, si trovava in un momento di stallo professionale, con difficoltà nel definire obiettivi chiari e nel far crescere il suo business. 
+                      Talentuosa artigiana sartoriale, si trovava in un momento di stallo professionale, con difficoltà nel definire obiettivi chiari e nel far crescere il suo business.
                     </div>
                     <div class="case-title">Criticità</div>
                     <div class="section-content">
-                    Lei sentiva la pressione di competere in un mercato altamente competitivo (quello del lusso), senza però riuscire a identificare una direzione strategica che le permettesse di distinguersi e valorizzare le sue competenze uniche.                    </div>
+                      Lei sentiva la pressione di competere in un mercato altamente competitivo (quello del lusso), senza però riuscire a identificare una direzione strategica che le permettesse di distinguersi e valorizzare le sue competenze uniche. </div>
                     <div class="case-title">Proposta Risolutiva</div>
                     <div class="section-content">
-                    Dopo un incontro approfondito, abbiamo lavorato insieme per ridefinire la sua visione professionale, identificando obiettivi realistici e sviluppando un piano d'azione su misura. Con un approccio empatico e pratico, l'ho aiutata a superare le sue incertezze, potenziando la sua capacità di prendere decisioni strategiche e migliorando la sua autostima nel percorso di crescita.                  </div>
+                      Dopo un incontro approfondito, abbiamo lavorato insieme per ridefinire la sua visione professionale, identificando obiettivi realistici e sviluppando un piano d'azione su misura. Con un approccio empatico e pratico, l'ho aiutata a superare le sue incertezze, potenziando la sua capacità di prendere decisioni strategiche e migliorando la sua autostima nel percorso di crescita. </div>
+                  </div>
                 </div>
+
+                <!-- Aggiungi altre slide qui -->
               </div>
-
-              <!-- Aggiungi altre slide qui -->
             </div>
-          </div>
 
-          <!-- Comandi per navigare tra le slide -->
-          <div id="commands">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-            <label for="slide5"></label>
-          </div>
+            <!-- Comandi per navigare tra le slide -->
+            <div id="commands">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+              <label for="slide4"></label>
+              <label for="slide5"></label>
+            </div>
         </article>
       </div>
 
