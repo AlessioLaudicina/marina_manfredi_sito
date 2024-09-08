@@ -16,7 +16,7 @@
                 <h1 class="text-green" style="font-size: 2.5em; text-align: center; margin-bottom: 10px;"><?php the_title(); ?></h1>
 
                 <div class="post-meta" style="text-align: center; font-size: 0.9em; color: #777; margin-bottom: 20px;">
-                    <span><?php the_time('F j, Y'); ?></span> | <span><?php the_author(); ?></span> | <span><?php the_category(', '); ?></span>
+                    <span><?php the_time('F j, Y'); ?></span> | <span><?php the_category(', '); ?></span>
                 </div>
 
                 <div class="post-content" style="font-size: 1.1em; line-height: 1.8; color: #555;">
@@ -33,17 +33,6 @@
                     </div>
                     <div class="next-post" style="font-size: 0.9em; text-align: right;">
                         <?php next_post_link('%link', '%title →'); ?>
-                    </div>
-                </div>
-
-                <div class="author-bio" style="margin-top: 50px; padding: 20px; background-color: #f9f9f9; border-radius: 8px; display: flex; align-items: center;">
-                    <div class="author-avatar" style="margin-right: 20px;">
-                        <?php echo get_avatar(get_the_author_meta('ID'), 80); ?>
-                    </div>
-                    <div class="author-info">
-                        <h4 style="margin: 0;"><?php the_author(); ?></h4>
-                        <p style="margin: 5px 0;"><?php the_author_meta('description'); ?></p>
-                        <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" style="color: #4C5A89; text-decoration: underline;">View all posts by <?php the_author(); ?></a>
                     </div>
                 </div>
             </article>

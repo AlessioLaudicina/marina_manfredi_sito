@@ -9,7 +9,7 @@ Template Name: Services Template
 
 <div class="services-section">
   <div class="inner-width">
-    <h1 class="text-green text-reveal text-0 section-title">I Miei Servizi di Coaching</h1>
+    <h1 class="text-green text-reveal text-0 section-title mt-2">I Miei Servizi di Coaching</h1>
     <div class="border"></div>
     <div class="services-container">
 
@@ -346,7 +346,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Intraprendente</p>
-            <p>Sono una persona intraprendente, sempre pronta a cogliere nuove opportunità e affrontare sfide con entusiasmo</p>
+            <p class="carousel-p">Sono una persona intraprendente, sempre pronta a cogliere nuove opportunità e affrontare sfide con entusiasmo</p>
           </div>
         </div>
         <div class="carousel__item">
@@ -355,7 +355,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Attendibile</p>
-            <p>Che si riflette nel mantenimento costante degli impegni presi</p>
+            <p class="carousel-p">Che si riflette nel mantenimento costante degli impegni presi</p>
           </div>
         </div>
         <div class="carousel__item">
@@ -364,7 +364,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Coerente</p>
-            <p>Coerenza tra ciò che dico e ciò che faccio è un punto fermo del mio operato.</p>
+            <p class="carousel-p">Coerenza tra ciò che dico e ciò che faccio è un punto fermo del mio operato.</p>
           </div>
         </div>
         <div class="carousel__item">
@@ -373,7 +373,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Etica</p>
-            <p>L’etica è il cuore pulsante di ogni mia iniziativa. Credo fermamente che l’integrità e il rispetto siano fondamentali per costruire relazioni solide e durature.</p>
+            <p class="carousel-p">L'etica guida ogni mia decisione, assicurando integrità e responsabilità.</p>
           </div>
         </div>
         <div class="carousel__item">
@@ -382,7 +382,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Creatività</p>
-            <p>Che mi permette di trovare soluzioni innovative e originali, trasformando ogni progetto in un’opera unica e significativa.</p>
+            <p class="carousel-p">La creatività è parte di me quanto la “forma mentis” da Ingegnere. Ciò mi permette di trovare soluzioni creative e lo sviluppo-affinamento continuo delle mie metodologie di coaching.</p>
           </div>
         </div>
         <div class="carousel__item">
@@ -391,7 +391,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Intelligenza emotiva</p>
-            <p>Porto un tocco umano in ogni interazione, riconoscendo e valorizzando l'unicità di ogni individuo. Questo approccio empatico facilita la costruzione di rapporti di fiducia e collaborazione autentica, migliorando la comunicazione e le relazioni interpersonali.</p>
+            <p class="carousel-p">Porto un tocco umano in ogni interazione, riconoscendo e valorizzando l'unicità di ogni individuo. Questo approccio empatico facilita la costruzione di rapporti di fiducia e collaborazione autentica, migliorando la comunicazione.</p>
           </div>
         </div>
         <div class="carousel__item">
@@ -400,7 +400,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Problem Solving</p>
-            <p>Sono abile nel risolvere problemi in modo efficiente e creativo. Identifico rapidamente le sfide e sviluppo soluzioni pratiche e innovative, facilitando il raggiungimento degli obiettivi dei miei clienti.
+            <p class="carousel-p">Sono abile nel risolvere problemi in modo efficiente e creativo. Identifico rapidamente le sfide e sviluppo soluzioni pratiche e innovative, facilitando il raggiungimento degli obiettivi.
             </p>
           </div>
         </div>
@@ -410,7 +410,7 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Customizzazione</p>
-            <p>Il mio coaching è altamente personalizzato, progettato per rispondere alle specifiche esigenze e obiettivi di ogni cliente, assicurando un servizio mirato e professionale.
+            <p class="carousel-p">Il mio coaching è altamente personalizzato, progettato per rispondere alle specifiche esigenze e obiettivi di ogni cliente, assicurando un servizio mirato e professionale.
             </p>
           </div>
         </div>
@@ -420,7 +420,8 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
           </div>
           <div class="carousel__item-body">
             <p class="title">Partner Competente</p>
-            <p>Mi considero una partner competente per i miei clienti, offrendo non solo supporto ma anche rare competenze specialistiche che possono realmente fare la differenza nei loro percorsi di crescita.</p>
+            <p class="carousel-p">Mi considero una partner competente offrendo non solo supporto, ma anche rare competenze specialistiche che possono realmente fare la differenza.
+            </p>
           </div>
         </div>
       </div>
@@ -487,10 +488,10 @@ M141.2 63.9c9.3 14.8 11.9 31.8 7.7 46.2-4.1 14.4-14.9 26.2-29 34-14 7.8-31.3 11.
   </div>
   <div class="grid text-center pt-4 pb-4">
     <div class="col-100">
-      <h3 class="text-1 text-green">Sei pronto al cambiamento? Trasforma la tua visione in realtà</h3>
+      <h3 class="text-2  text-green">Sei pronto al cambiamento? Trasforma la tua visione in realtà</h3>
       <p class="text-3">Contattami per iniziare a pianificare il tuo futuro con un Action Plan su misura per il tuo Business!
       </p>
-      <a href="#" class="button"> Contattami ora</a>
+      <a href="<?php echo get_permalink(get_page_by_path('contatti')); ?>" class="button"> Contattami ora</a>
     </div>
   </div>
 </main>

@@ -71,8 +71,6 @@ revealContainers.forEach((container) => {
   });
 });
 
-
-
   // Scroll To
 
   const links = document.querySelectorAll(".scroll-trigger");
@@ -115,29 +113,7 @@ revealContainers.forEach((container) => {
 
   gsap.to(".text-reveal", { clipPath: "polygon(0 0, 100% 0, 98% 100%, 0 100%)", y:0, duration: 1, stagger: 0.7, ease: Power2.easeOut });
 
-  gsap.to(".slide-right", {
-    x: -200,
-    scrollTrigger: {
-      trigger: ".slide-right",
-      start: "top 80%",
-      end: "bottom top",
-      //markers: true,
-      scrub: true
-    }
-  });
   
-  
-  gsap.to(".slide-left", {
-    x: 200,
-    scrollTrigger: {
-      trigger: ".slide-left",
-      start: "top 80%",
-      end: "bottom top",
-      //markers: true,
-      scrub: true
-    }
-  });
-
 
 // About Horizontal Scroll
 // Importa i plugin necessari di GSAP

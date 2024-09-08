@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="spacer" style="background-color: #4C5A89;"></div>
-<h2 class="text-green text-center pt-4">Le Tips del Mercoledì</h2>
+<h2 class="text-green text-center pt-4 text-0">Le Tips del Mercoledì</h2>
 <p class="text-green" style="font-style: italic; text-align:center;">"Ogni obiettivo straordinario è il risultato di piccole azioni quotidiane."</p>
 
 
@@ -59,7 +59,7 @@
         </form>
       </div>
       <div class="widget">
-        <h4 class="text-green pt-2"><?php esc_html_e('Posts Recenti', 'nextframe'); ?></h4>
+        <h4 class="text-green pt-2"><?php esc_html_e('Posts in Evidenza', 'nextframe'); ?></h4>
         <ul>
           <?php wp_get_archives(array('type' => 'postbypost', 'limit' => 5)); ?>
 
